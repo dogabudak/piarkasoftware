@@ -1,7 +1,7 @@
 import logo from './logo.png';
 import './App.css';
-
-function App() {
+import SideBox from './components/SideBox';
+const App=() => {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,6 +15,7 @@ function App() {
         >
         Doga Budak
         </a>
+        <SideBox/>
       </header>
     </div>
   );
