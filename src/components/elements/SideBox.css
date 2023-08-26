@@ -14,12 +14,15 @@ input[type="checkbox"]:checked + .box .box__item {
     transition-property: transform, opacity;
 }
 input[type="checkbox"]:checked + .box .icon {
-    background-image: url("../images/info.png");
+    background-image: url("../../images/info.png");
 }
 .infoSection{
+    color: black;
     position: absolute;
-    right: 85px;
-    font-size: 15px;
+    text-align:right;
+    right: 30px;
+    font-size: 10px;
+    line-height: 0.1;
     z-index: -1;
     width: max-content;
     margin-top: -160px;
@@ -30,7 +33,7 @@ input[type="checkbox"]:checked + .box .icon {
 }
 .box:after {
     content: '';
-    width: 42px;
+    width: 30px;
     height: 62px;
     position: absolute;
     right: 0;
@@ -64,7 +67,7 @@ input[type="checkbox"]:checked + .box .icon {
     width: 50px;
     height: 50px;
     background: no-repeat center / 40%;
-    background-image: url("../images/info.png");
+    background-image: url("../../images/info.png");
 }
 /* _________ BASE LAYOUT __________ */
 *, *:before, *:after {
@@ -80,7 +83,6 @@ body, html {
 
 h1, h2 {
     margin: 1.75rem 0 1.05rem;
-    line-height: 1.15;
 }
 h1 {
     margin-top: 0;

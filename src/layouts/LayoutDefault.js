@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import Banner from '../components/layout/partials/Banner';
+import SideBox from '../components/elements/SideBox';
 
 const LayoutDefault = ({ children }) => (
   <>
@@ -10,6 +11,7 @@ const LayoutDefault = ({ children }) => (
       {children}
     </main>
     <Banner />
+    <SideBox />
     <Footer />
   </>
 );

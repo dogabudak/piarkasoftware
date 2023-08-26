@@ -11,7 +11,7 @@ export default class SideBox extends Component {
                         <div className="icon"/>
                     </label>
                     <div className="infoSection">
-                        <h2 style={{yIndex: 1}} className="box__item">Current Projects</h2>
+                        <h4 style={{yIndex: 1}} className="box__item">Current Projects</h4>
                         <p style={{yIndex: 2}} className="box__item">81 guides</p>
                         <p style={{yIndex: 3}} className="box__item">Slide & Learn</p>
                         <p style={{yIndex: 4}} className="box__item">Piarka</p>
@@ -19,7 +19,9 @@ export default class SideBox extends Component {
                         <p style={{yIndex: 6}} className="box__item">Procedure Dungeons</p>
                         <p style={{yIndex: 7}} className="box__item">An Unusual Refugee </p>
                         <p style={{yIndex: 8}} className="box__item">piarkasoftware.com</p>
-                        <p style={{yIndex: 8}} className="box__item">dogabudak.com</p>
+                        <p style={{yIndex: 9}} className="box__item">dogabudak.com</p>
+                        <p style={{yIndex: 10}} className="box__item">node-to-csv-ts</p>
+                        <p style={{yIndex: 11}} className="box__item">btcturk_websockets</p>
                     </div>
                 </div>
             </div>
