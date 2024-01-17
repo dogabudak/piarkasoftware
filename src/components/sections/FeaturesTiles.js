@@ -216,7 +216,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                        src={require('./../../assets/images/web-svgrepo-com.svg')}
                         alt="Features tile icon 06"
                         width={64}
                         height={64} />
@@ -237,7 +237,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                        src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                        src={require('./../../assets/images/convertshape-2-svgrepo-com.svg')}
                         alt="Features tile icon 06"
                         width={64}
                         height={64} />
