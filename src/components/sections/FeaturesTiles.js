@@ -274,6 +274,27 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={require('./../../assets/images/coin-send-svgrepo-com.svg')}
+                        alt="Features tile icon 06"
+                        width={64}
+                        height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Mini Productions
+                  </h4>
+                  <p className="m-0 text-sm">
+                    Elevate your cryptocurrency trading experience with our cutting-edge coin trading library tailored for BTCturk, meticulously crafted in Rust. This powerful and efficient tool empowers developers and traders alike with seamless access to trading functionalities, providing a robust foundation for secure and performant transactions. Dive into the world of digital asset trading with confidence, leveraging the reliability and speed of Rust to enhance your BTCturk trading endeavors
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
