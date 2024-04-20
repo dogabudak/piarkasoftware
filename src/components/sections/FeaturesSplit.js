@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Explore Our Vision',
+    paragraph: 'Celebrate our journey of innovation and excellence as you delve into our meticulously curated portfolio. Discover a diverse range of projects where creativity meets functionality, showcasing our commitment to delivering cutting-edge solutions tailored to our clients\' unique needs. From groundbreaking applications to transformative software solutions, each project reflects our dedication to pushing the boundaries of possibility in the digital realm.'
   };
 
   return (
@@ -73,7 +73,7 @@ const FeaturesSplit = ({
                   Data-driven insights
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Experience lightning-fast workflow optimization with our data-driven insights. Harness the power of cutting-edge analytics and real-time data processing to propel your business forward. From streamlining operations to uncovering hidden opportunities, our solutions empower you to make informed decisions and stay ahead of the curve in today's dynamic marketplace.
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/features-split-image-01.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Seamless Integration
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Connectivity Simplified: Streamline Your Workflow with Seamless Integration
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Effortlessly integrate our solutions into your existing ecosystem for a seamless experience. Our flexible architecture and robust APIs ensure smooth connectivity with your favorite tools and platforms. Whether you're transitioning from legacy systems or expanding your digital footprint, our integration solutions streamline processes and maximize efficiency, so you can focus on what matters most – growing your business.
                   </p>
               </div>
               <div className={
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/features-split-image-02.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +119,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Personalized Support
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Your Success, Our Priority: Customized Assistance for Seamless Implementation and Beyond
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Experience unparalleled support tailored to your unique needs. Our dedicated team of experts is here to guide you every step of the way, providing personalized assistance and proactive solutions. From onboarding to ongoing maintenance, we're committed to ensuring your success and satisfaction. With PiarkaSoftware, you're never alone on your journey towards digital excellence.
                   </p>
               </div>
               <div className={
@@ -135,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/features-split-image-03.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
