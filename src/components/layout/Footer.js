@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 
 const propTypes = {
@@ -38,9 +37,6 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
-          <div className="footer-top space-between text-xxs">
-            <Logo />
-          </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
             <div className="footer-copyright">Made by <a href="https://www.dogabudak.com">Doga Budak</a>. All right reserved</div>
