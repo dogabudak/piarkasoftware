@@ -104,13 +104,17 @@ const Header = ({
                     isActive && 'is-active'
                   )}>
                 <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
+                  <ul
+                      className={classNames(
+                          'list-reset text-xs',
+                          navPosition && `header-nav-${navPosition}`
+                      )}
+                  >
                     <li>
                       <Link to="Projects" onClick={closeMenu}>Projects</Link>
+                    </li>
+                    <li>
+                      <Link to="Team" onClick={closeMenu}>Meet the team</Link>
                     </li>
                   </ul>
                 </div>
