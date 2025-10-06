@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/piarkasoftware/static/css/main.b0aba537.css",
+    "main.js": "/piarkasoftware/static/js/main.8a87b126.js",
+    "static/media/features-split-image-02.jpg": "/piarkasoftware/static/media/features-split-image-02.0f964850ff522e7a3e97.jpg",
+    "static/media/features-split-image-03.jpg": "/piarkasoftware/static/media/features-split-image-03.c93b61047910ffc4cf87.jpg",
+    "static/media/features-split-image-01.jpg": "/piarkasoftware/static/media/features-split-image-01.a0d03b4e3650bea5af07.jpg",
+    "static/media/doga.jpeg": "/piarkasoftware/static/media/doga.fed5fb45e6613612d048.jpeg",
+    "static/media/emre.jpeg": "/piarkasoftware/static/media/emre.4ff2239d7ae588b3b3a0.jpeg",
+    "static/media/illustration-section-01.svg": "/piarkasoftware/static/media/illustration-section-01.980998916c8e9369ffab.svg",
+    "static/media/illustration-section-02.svg": "/piarkasoftware/static/media/illustration-section-02.f11c21a9745d2454b81c.svg",
+    "static/media/cta-illustration.svg": "/piarkasoftware/static/media/cta-illustration.79633e4594ec76a3f01f.svg",
+    "static/media/coin-send-svgrepo-com.svg": "/piarkasoftware/static/media/coin-send-svgrepo-com.de44953178af02ec57486746655c2ae6.svg",
+    "static/media/web-svgrepo-com.svg": "/piarkasoftware/static/media/web-svgrepo-com.176bb2a01f40344a46393545bbf9cb33.svg",
+    "static/media/convertshape-2-svgrepo-com.svg": "/piarkasoftware/static/media/convertshape-2-svgrepo-com.ce672c80cb8bf9c50f0c5af169126e45.svg",
+    "index.html": "/piarkasoftware/index.html",
+    "static/media/feature-tile-icon-06.svg": "/piarkasoftware/static/media/feature-tile-icon-06.74b0477e38710535bd0e2526d669b6f8.svg",
+    "static/media/feature-tile-icon-05.svg": "/piarkasoftware/static/media/feature-tile-icon-05.af2bae113bcfafa4eceac9401c7f3a5a.svg",
+    "static/media/rocket.svg": "/piarkasoftware/static/media/rocket.a5c946202b2118f0217c356b10a4c54a.svg",
+    "static/media/feature-tile-icon-03.svg": "/piarkasoftware/static/media/feature-tile-icon-03.69e94e20efba0832770920ab1d93d073.svg",
+    "static/media/feature-tile-icon-01.svg": "/piarkasoftware/static/media/feature-tile-icon-01.e13cef8e30c0472fc8b303cc0801113f.svg",
+    "static/media/feature-tile-icon-02.svg": "/piarkasoftware/static/media/feature-tile-icon-02.469356592c7ce3b1abf53cca85e82fee.svg",
+    "main.b0aba537.css.map": "/piarkasoftware/static/css/main.b0aba537.css.map",
+    "main.8a87b126.js.map": "/piarkasoftware/static/js/main.8a87b126.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0aba537.css",
+    "static/js/main.8a87b126.js"
+  ]
+}
