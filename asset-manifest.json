@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/piarkasoftware/static/css/main.b0aba537.css",
-    "main.js": "/piarkasoftware/static/js/main.8a87b126.js",
+    "main.js": "/piarkasoftware/static/js/main.45c6e5db.js",
     "static/media/features-split-image-02.jpg": "/piarkasoftware/static/media/features-split-image-02.0f964850ff522e7a3e97.jpg",
     "static/media/features-split-image-03.jpg": "/piarkasoftware/static/media/features-split-image-03.c93b61047910ffc4cf87.jpg",
     "static/media/features-split-image-01.jpg": "/piarkasoftware/static/media/features-split-image-01.a0d03b4e3650bea5af07.jpg",
@@ -21,10 +21,10 @@
     "static/media/feature-tile-icon-01.svg": "/piarkasoftware/static/media/feature-tile-icon-01.e13cef8e30c0472fc8b303cc0801113f.svg",
     "static/media/feature-tile-icon-02.svg": "/piarkasoftware/static/media/feature-tile-icon-02.469356592c7ce3b1abf53cca85e82fee.svg",
     "main.b0aba537.css.map": "/piarkasoftware/static/css/main.b0aba537.css.map",
-    "main.8a87b126.js.map": "/piarkasoftware/static/js/main.8a87b126.js.map"
+    "main.45c6e5db.js.map": "/piarkasoftware/static/js/main.45c6e5db.js.map"
   },
   "entrypoints": [
     "static/css/main.b0aba537.css",
-    "static/js/main.8a87b126.js"
+    "static/js/main.45c6e5db.js"
   ]
 }
