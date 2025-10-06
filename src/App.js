@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, useLocation } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
-import ReactGA from 'react-ga';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -12,25 +11,16 @@ import Home from './views/Home';
 import Projects from "./views/Projects";
 import Team from "./views/Team";
 
-// Initialize Google Analytics
-ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
-const trackPage = page => {
-  ReactGA.set({ page });
-  ReactGA.pageview(page);
-};
-
-const App = () => {
-
+const Routes = () => {
   const childRef = useRef();
-  let location = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
-    const page = location.pathname;
-    document.body.classList.add('is-loaded')
-    childRef.current.init();
-    trackPage(page);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    document.body.classList.add('is-loaded');
+    if (childRef.current) {
+      childRef.current.init();
+    }
   }, [location]);
 
   return (
@@ -42,8 +32,16 @@ const App = () => {
           <AppRoute exact path="/Projects" component={Projects} layout={LayoutDefault} />
           <AppRoute exact path="/Team" component={Team} layout={LayoutDefault} />
         </Switch>
-      )} />
+      )}
+    />
   );
-}
+};
+
+const App = () => (
+  // 👇 this line makes it work both locally and on GitHub Pages
+  <Router basename={process.env.PUBLIC_URL}>
+    <Routes />
+  </Router>
+);
 
 export default App;
