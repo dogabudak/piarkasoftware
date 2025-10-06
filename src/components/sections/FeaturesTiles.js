@@ -7,7 +7,6 @@ import Image from '../elements/Image';
 import icon01 from './../../assets/images/feature-tile-icon-01.svg';
 import icon02 from './../../assets/images/feature-tile-icon-02.svg';
 import icon03 from './../../assets/images/feature-tile-icon-03.svg';
-import puzzleIcon from './../../assets/images/puzzle-svgrepo-com.svg';
 import icon05 from './../../assets/images/feature-tile-icon-05.svg';
 import rocketIcon from './../../assets/images/rocket.svg';
 import icon06 from './../../assets/images/feature-tile-icon-06.svg';
@@ -63,14 +62,12 @@ const FeaturesTiles = ({
     { icon: icon01, title: '81 Guides', description: 'Embark on an enriching journey through Turkey with our immersive touring application...' },
     { icon: icon02, title: 'Piarcha', description: 'Embark on an enriching journey worldwide with our immersive touring application...' },
     { icon: icon03, title: 'Yeşildoğa', description: 'We are dedicated to making the world a better place by focusing on the health of our planet...' },
-    { icon: puzzleIcon, title: 'Slide & Learn', description: 'Introduce your little ones to a world of fun and learning with our delightful sliding puzzle game...' },
-    { icon: icon05, title: 'Procedural Dungeons', description: 'Embark on an ever-changing adventure with our captivating game featuring multiple procedural dungeons...' },
+    { icon: icon05, title: 'Into the Light', description: 'Embark on an ever-changing adventure with our captivating game featuring multiple procedural dungeons...' },
     { icon: rocketIcon, title: 'An Unusual Refrugee', description: 'Embark on a thrilling online survival adventure, seamlessly playable on both browsers and phones...' },
     { icon: icon06, title: 'piarkasoftware.com', description: 'This website is designed and created by us too :)' },
     { icon: webIcon, title: 'www.dogabudak.com', description: 'Personal website for Doga Budak' },
     { icon: convertShapeIcon, title: 'node-csv-ts', description: 'Introducing our state-of-the-art TypeScript library for seamless CSV to JSON conversion...' },
     { icon: coinSendIcon, title: 'btc-websockets', description: 'Elevate your cryptocurrency trading experience with our cutting-edge coin trading library...' },
-    { icon: coinSendIcon, title: 'Mini Productions', description: 'Elevate your cryptocurrency trading experience with our cutting-edge coin trading library...' }
   ];
 
   return (

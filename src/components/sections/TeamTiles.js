@@ -62,7 +62,7 @@ const MeetTheTeam = ({
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
                                         <Image
-                                            src={require('./../../assets/images/profile.jpeg')}
+                                            src={require('./../../assets/images/doga.jpeg')}
                                             alt="Doga Budak"
                                             width={64}
                                             height={64}
@@ -72,7 +72,7 @@ const MeetTheTeam = ({
                                 <div className="features-tiles-item-content">
                                     <h4 className="mt-0 mb-8">Doga Budak</h4>
                                     <p className="m-0 text-sm">
-                                        Founder & Software Architect. Passionate about elegant code, system design, and empowering digital innovation through thoughtful engineering.
+                                        Founder & CTO. Driven by a love for clean architecture and scalable systems, crafting impactful software that bridges vision and technology.
                                     </p>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@ const MeetTheTeam = ({
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
                                         <Image
-                                            src={require('./../../assets/images/profile.jpeg')}
+                                            src={require('./../../assets/images/emre.jpeg')}
                                             alt="Team Member"
                                             width={64}
                                             height={64}
@@ -94,7 +94,7 @@ const MeetTheTeam = ({
                                 <div className="features-tiles-item-content">
                                     <h4 className="mt-0 mb-8">Emre Yeşilbursa</h4>
                                     <p className="m-0 text-sm">
-                                        Full Blown Engineer. Expert in building scalable web platforms with a knack for clean UI/UX and performance optimization.
+                                        Founder & CEO. Visionary leader with a passion for transforming ideas into sustainable products, uniting strategy, creativity, and execution.
                                     </p>
                                 </div>
                             </div>

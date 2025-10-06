@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Explore Our Vision',
-    paragraph: 'Celebrate our journey of innovation and excellence as you delve into our meticulously curated portfolio. Discover a diverse range of projects where creativity meets functionality, showcasing our commitment to delivering cutting-edge solutions tailored to our clients\' unique needs. From groundbreaking applications to transformative software solutions, each project reflects our dedication to pushing the boundaries of possibility in the digital realm.'
+    paragraph: 'At Piarka Software, we combine engineering precision with creative innovation. Our mission is to deliver digital experiences that are both powerful and meaningful — from intelligent software solutions to inspiring interactive products. Each project in our portfolio reflects our dedication to building technology that truly connects with people.'
   };
 
   return (
@@ -64,81 +64,98 @@ const FeaturesSplit = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
+            {/* Feature 1 - Innovation & Vision */}
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
+                  Purpose-Driven Innovation
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
+                  Turning Ideas into Impactful Digital Experiences
+                </h3>
                 <p className="m-0">
-                  Experience lightning-fast workflow optimization with our data-driven insights. Harness the power of cutting-edge analytics and real-time data processing to propel your business forward. From streamlining operations to uncovering hidden opportunities, our solutions empower you to make informed decisions and stay ahead of the curve in today's dynamic marketplace.
-                  </p>
+                  Every Piarka Software product begins with a clear purpose — to transform ideas into high-quality, functional results. 
+                  From <strong>81 Guides</strong> and <strong>Piarcha</strong>, our immersive travel platforms, to <strong>Yeşildoğa</strong>, our sustainability-focused initiative, 
+                  each project demonstrates our commitment to meaningful design, technical excellence, and long-term impact in the digital world.
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                data-reveal-container=".split-item"
+              >
                 <Image
                   src={require('./../../assets/images/features-split-image-01.jpg')}
-                  alt="Features split 01"
+                  alt="Purpose-driven innovation"
                   width={528}
-                  height={396} />
+                  height={396}
+                />
               </div>
             </div>
 
+            {/* Feature 2 - Seamless Integration */}
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Seamless Integration
-                  </div>
+                  Connected Ecosystems
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Connectivity Simplified: Streamline Your Workflow with Seamless Integration
-                  </h3>
+                  Building Bridges Between Technologies, Platforms, and People
+                </h3>
                 <p className="m-0">
-                  Effortlessly integrate our solutions into your existing ecosystem for a seamless experience. Our flexible architecture and robust APIs ensure smooth connectivity with your favorite tools and platforms. Whether you're transitioning from legacy systems or expanding your digital footprint, our integration solutions streamline processes and maximize efficiency, so you can focus on what matters most – growing your business.
-                  </p>
+                  Our expertise lies in creating modular and scalable systems that connect tools, data, and users across platforms. 
+                  From backend integrations like <strong>node-csv-ts</strong> and <strong>btc-websockets</strong> to high-performance APIs and analytics pipelines, 
+                  Piarka Software delivers solutions that work seamlessly within existing ecosystems. 
+                  We simplify complexity so businesses can focus on what truly matters — growth and innovation.
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                data-reveal-container=".split-item"
+              >
                 <Image
                   src={require('./../../assets/images/features-split-image-02.jpg')}
-                  alt="Features split 02"
+                  alt="Seamless integration"
                   width={528}
-                  height={396} />
+                  height={396}
+                />
               </div>
             </div>
 
+            {/* Feature 3 - Partnership & Support */}
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Personalized Support
-                  </div>
+                  Collaboration That Lasts
+                </div>
                 <h3 className="mt-0 mb-12">
-                  Your Success, Our Priority: Customized Assistance for Seamless Implementation and Beyond
-                  </h3>
+                  Your Vision, Our Expertise — Every Step of the Journey
+                </h3>
                 <p className="m-0">
-                  Experience unparalleled support tailored to your unique needs. Our dedicated team of experts is here to guide you every step of the way, providing personalized assistance and proactive solutions. From onboarding to ongoing maintenance, we're committed to ensuring your success and satisfaction. With PiarkaSoftware, you're never alone on your journey towards digital excellence.
-                  </p>
+                  At Piarka Software, we believe strong partnerships create the best outcomes. 
+                  Our dedicated team provides transparent communication, strategic guidance, and hands-on technical support from concept to deployment. 
+                  Whether developing a game like <strong>Into the Light</strong> or launching a digital platform, 
+                  we ensure every client receives the attention, insight, and care needed for long-term success.
+                </p>
               </div>
-              <div className={
-                classNames(
+              <div
+                className={classNames(
                   'split-item-image center-content-mobile reveal-from-bottom',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                data-reveal-container=".split-item"
+              >
                 <Image
                   src={require('./../../assets/images/features-split-image-03.jpg')}
-                  alt="Features split 03"
+                  alt="Partnership and support"
                   width={528}
-                  height={396} />
+                  height={396}
+                />
               </div>
             </div>
 
