@@ -39,7 +39,7 @@ const Routes = () => {
 
 const App = () => (
   // 👇 this line makes it work both locally and on GitHub Pages
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename={import.meta.env.BASE_URL}>
     <Routes />
   </Router>
 );
