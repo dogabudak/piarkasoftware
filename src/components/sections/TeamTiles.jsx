@@ -3,6 +3,8 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import ImgVar0 from './../../assets/images/doga.jpeg';
+import ImgVar1 from './../../assets/images/emre.jpeg';
 
 
 const propTypes = {
@@ -62,7 +64,7 @@ const MeetTheTeam = ({
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
                                         <Image
-                                            src={require('./../../assets/images/doga.jpeg')}
+                                            src={ImgVar0}
                                             alt="Doga Budak"
                                             width={64}
                                             height={64}
@@ -84,7 +86,7 @@ const MeetTheTeam = ({
                                 <div className="features-tiles-item-header">
                                     <div className="features-tiles-item-image mb-16">
                                         <Image
-                                            src={require('./../../assets/images/emre.jpeg')}
+                                            src={ImgVar1}
                                             alt="Team Member"
                                             width={64}
                                             height={64}

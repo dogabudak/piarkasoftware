@@ -3,6 +3,9 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import ImgVar0 from './../../assets/images/features-split-image-01.jpg';
+import ImgVar1 from './../../assets/images/features-split-image-02.jpg';
+import ImgVar2 from './../../assets/images/features-split-image-03.jpg';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -87,7 +90,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.jpg')}
+                  src={ImgVar0}
                   alt="Purpose-driven innovation"
                   width={528}
                   height={396}
@@ -119,7 +122,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.jpg')}
+                  src={ImgVar1}
                   alt="Seamless integration"
                   width={528}
                   height={396}
@@ -151,7 +154,7 @@ const FeaturesSplit = ({
                 data-reveal-container=".split-item"
               >
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.jpg')}
+                  src={ImgVar2}
                   alt="Partnership and support"
                   width={528}
                   height={396}
