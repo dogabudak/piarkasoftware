@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/doga.budak/Documents/piarcha/piarkasoftware -type d -name \"*icon*\" -o -type d -name \"*assets*\" 2>/dev/null | head -20)"
+    ]
+  }
+}

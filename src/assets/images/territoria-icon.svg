@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Map/territory outline -->
+  <rect x="6" y="8" width="52" height="44" rx="4" stroke="#6163FF" stroke-width="2.5" fill="none"/>
+  <!-- Territory divisions -->
+  <path d="M6 28h20l6-8h26" stroke="#ACB5FF" stroke-width="1.5" opacity="0.5"/>
+  <path d="M32 8v14l-6 8v22" stroke="#ACB5FF" stroke-width="1.5" opacity="0.5"/>
+  <!-- Territory markers -->
+  <circle cx="18" cy="18" r="3" fill="#6163FF" opacity="0.7"/>
+  <circle cx="44" cy="20" r="3" fill="#6163FF" opacity="0.7"/>
+  <circle cx="20" cy="40" r="3" fill="#6163FF" opacity="0.7"/>
+  <circle cx="44" cy="40" r="3" fill="#6163FF" opacity="0.7"/>
+  <!-- Flag on main territory -->
+  <line x1="32" y1="30" x2="32" y2="42" stroke="#6163FF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M32 30l10 4-10 4z" fill="#6163FF" opacity="0.8"/>
+</svg>

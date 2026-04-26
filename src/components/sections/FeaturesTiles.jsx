@@ -13,6 +13,10 @@ import icon06 from './../../assets/images/feature-tile-icon-06.svg';
 import webIcon from './../../assets/images/web-svgrepo-com.svg';
 import convertShapeIcon from './../../assets/images/convertshape-2-svgrepo-com.svg';
 import coinSendIcon from './../../assets/images/coin-send-svgrepo-com.svg';
+import bodycountIcon from './../../assets/images/bodycount-app-icon.svg';
+import simVideosIcon from './../../assets/images/sim-videos-icon.svg';
+import territoriaIcon from './../../assets/images/territoria-icon.svg';
+import rocketJwtIcon from './../../assets/images/rocket-jwt-auth-icon.svg';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -58,49 +62,67 @@ const FeaturesTiles = ({
     paragraph: `Embark on a journey of innovation and discovery as you delve into our realm of technology brilliance. At Piarcha Software, we believe in turning imaginative concepts into tangible, groundbreaking solutions. Our projects aren't just lines of code; they're the manifestation of bold ideas and relentless dedication. Explore our curated showcase of signature software projects, where creativity meets functionality, and innovation thrives. Witness firsthand how we breathe life into ideas, crafting digital experiences that redefine possibilities. Join us on this exploration of ingenuity and discover the transformative power of our signature software projects.`
   };
 
-  const tileData = [
+  const finishedHeader = {
+    title: 'Finished Projects',
+    paragraph: 'A collection of completed projects that have been shipped and are live in production.'
+  };
+
+  const ongoingData = [
     { icon: icon01, title: '81 Guides', description: 'Embark on an enriching journey through Turkey with our immersive touring application...' },
     { icon: icon02, title: 'Piarcha', description: 'Embark on an enriching journey worldwide with our immersive touring application...' },
     { icon: icon03, title: 'Yeşildoğa', description: 'We are dedicated to making the world a better place by focusing on the health of our planet...' },
     { icon: icon05, title: 'Into the Light', description: 'Embark on an ever-changing adventure with our captivating game featuring multiple procedural dungeons...' },
     { icon: rocketIcon, title: 'An Unusual Refrugee', description: 'Embark on a thrilling online survival adventure, seamlessly playable on both browsers and phones...' },
+    { icon: bodycountIcon, title: 'Bodycount App', description: 'A sleek social companion app that lets you track and visualize your personal connections over time, complete with interactive timelines, insightful stats, and a beautifully designed private journal to reflect on your social journey.' },
+    { icon: simVideosIcon, title: 'Sim Videos', description: 'Watch thrilling last-man-standing simulation battles unfold across our social media channels. Each video features unique scenarios where contestants are eliminated round by round in unpredictable, entertaining ways until only one remains victorious.' },
+    { icon: territoriaIcon, title: 'Territoria', description: 'Conquer and defend in this strategic territory control game where players claim land, forge alliances, and battle for dominance across dynamically generated maps with real-time multiplayer gameplay and evolving battlegrounds.' },
+  ];
+
+  const finishedData = [
+    { icon: coinSendIcon, title: 'btc-websockets', description: 'Elevate your cryptocurrency trading experience with our cutting-edge coin trading library...' },
+    { icon: convertShapeIcon, title: 'node-csv-ts', description: 'Introducing our state-of-the-art TypeScript library for seamless CSV to JSON conversion...' },
     { icon: icon06, title: 'piarkasoftware.com', description: 'This website is designed and created by us too :)' },
     { icon: webIcon, title: 'www.dogabudak.com', description: 'Personal website for Doga Budak' },
-    { icon: convertShapeIcon, title: 'node-csv-ts', description: 'Introducing our state-of-the-art TypeScript library for seamless CSV to JSON conversion...' },
-    { icon: coinSendIcon, title: 'btc-websockets', description: 'Elevate your cryptocurrency trading experience with our cutting-edge coin trading library...' },
+    { icon: rocketJwtIcon, title: 'rocket_jwt_auth', description: 'A robust authentication boilerplate built with Rust\'s Rocket framework, featuring JSON Web Token (JWT) based auth flow with secure token generation, validation, and middleware integration out of the box.' },
   ];
+
+  const renderTiles = (tiles) => (
+      <div className={tilesClasses}>
+        {tiles.map((tile, index) => (
+            <div
+                className="tiles-item reveal-from-bottom"
+                data-reveal-delay={(index % 3) * 200}
+                key={index}
+            >
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                        src={tile.icon}
+                        alt={`Features tile icon ${index + 1}`}
+                        width={64}
+                        height={64}
+                    />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">{tile.title}</h4>
+                  <p className="m-0 text-sm">{tile.description}</p>
+                </div>
+              </div>
+            </div>
+        ))}
+      </div>
+  );
 
   return (
       <section {...props} className={outerClasses}>
         <div className="container">
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
-            <div className={tilesClasses}>
-              {tileData.map((tile, index) => (
-                  <div
-                      className="tiles-item reveal-from-bottom"
-                      data-reveal-delay={(index % 3) * 200}
-                      key={index}
-                  >
-                    <div className="tiles-item-inner">
-                      <div className="features-tiles-item-header">
-                        <div className="features-tiles-item-image mb-16">
-                          <Image
-                              src={tile.icon}
-                              alt={`Features tile icon ${index + 1}`}
-                              width={64}
-                              height={64}
-                          />
-                        </div>
-                      </div>
-                      <div className="features-tiles-item-content">
-                        <h4 className="mt-0 mb-8">{tile.title}</h4>
-                        <p className="m-0 text-sm">{tile.description}</p>
-                      </div>
-                    </div>
-                  </div>
-              ))}
-            </div>
+            {renderTiles(ongoingData)}
+            <SectionHeader data={finishedHeader} className="center-content mt-32" />
+            {renderTiles(finishedData)}
           </div>
         </div>
       </section>

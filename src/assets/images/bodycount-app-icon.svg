@@ -1,0 +1,13 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center person -->
+  <circle cx="32" cy="18" r="6" stroke="#6163FF" stroke-width="2.5" fill="none"/>
+  <path d="M22 38c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="#6163FF" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left person -->
+  <circle cx="14" cy="22" r="4.5" stroke="#ACB5FF" stroke-width="2" fill="none"/>
+  <path d="M6 38c0-4.418 3.582-8 8-8s8 3.582 8 8" stroke="#ACB5FF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Right person -->
+  <circle cx="50" cy="22" r="4.5" stroke="#ACB5FF" stroke-width="2" fill="none"/>
+  <path d="M42 38c0-4.418 3.582-8 8-8s8 3.582 8 8" stroke="#ACB5FF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Heart -->
+  <path d="M32 48c0 0-10-5-10-10a5 5 0 0 1 10 0 5 5 0 0 1 10 0c0 5-10 10-10 10z" fill="#6163FF" opacity="0.7"/>
+</svg>
